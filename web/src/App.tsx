@@ -76,13 +76,13 @@ const App = () => {
         serverURL={
           process.env.REACT_APP_BACKEND
             ? process.env.REACT_APP_BACKEND
-            : 'http://localhost:3000/local'
+            : 'http://127.0.0.1:3000/local'
         }
         t={t}
         statServerUrl={
           process.env.REACT_APP_STAT_URL
             ? process.env.REACT_APP_STAT_URL
-            : 'http://localhost:3100/local'
+            : 'http://127.0.0.1:3100/local'
         }
       >
         <UserInformationContextProvider>
