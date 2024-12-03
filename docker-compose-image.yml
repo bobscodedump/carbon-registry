@@ -47,7 +47,7 @@ services:
       EMAILPREFIX: ''
       LOCATION_SERVICE: OPENSTREET
       ASYNC_OPERATIONS_TYPE: Database
-      HOST: 'http://localhost:3030'
+      HOST: 'http://52.202.56.186:3030'
       DOMAIN_MAP: 'true'
       EXPIRES_IN: '7200'
       BACKEND_HOST: 'http://192.168.1.16:3000'
@@ -112,9 +112,9 @@ services:
     #   dockerfile: ./web/Dockerfile
     #   args:
     #     PORT: 3030
-    #     REACT_APP_BACKEND: http://localhost:3000
+    #     REACT_APP_BACKEND: http://52.202.56.186:3000
     #     REACT_APP_GOVERNMENT_MINISTRY: "Ministry Of Environment",
-    #     REACT_APP_STAT_URL: http://localhost:3100
+    #     REACT_APP_STAT_URL: http://52.202.56.186:3100
     #     REACT_APP_COUNTRY_NAME: "CountryX"
     #     REACT_APP_COUNTRY_FLAG_URL: "https://carbon-common-dev.s3.amazonaws.com/flag.png"
     #     REACT_APP_COUNTRY_CODE: "NG"
